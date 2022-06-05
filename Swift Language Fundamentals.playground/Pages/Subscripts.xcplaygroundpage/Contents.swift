@@ -3,7 +3,6 @@
 import Foundation
 
 // Subscripts - A way to make a shortcut instead of calling a method.
-
 // Normal Method
 struct HelloKitty {
     func saySomething() -> String {
@@ -16,7 +15,6 @@ let babe = HelloKitty()
 babe.saySomething()
 
 // subscripts are analogous to methods, except without a name.
-
 struct Weekdays {
     var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
     
