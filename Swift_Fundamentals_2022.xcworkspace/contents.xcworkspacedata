@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Swift Concepts/Advanced Enum.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Swift Concepts/Swift Language Fundamentals.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Object Oriented Swift.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Intro To Functional Swift.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Protocol Oriented Swift.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Swift Memory Management.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/arturoarriaga/Desktop/Functional Programming.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Generic Protocol.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Swift 4.0 Changes.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Advanced Swift.playground">
+   </FileRef>
+</Workspace>
