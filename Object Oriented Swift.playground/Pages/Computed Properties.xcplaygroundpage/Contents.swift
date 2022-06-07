@@ -46,7 +46,6 @@ var diameter: Double {
     get {
         return radius * 2
     }
-    
     set {
         radius = newValue / 2
     }
