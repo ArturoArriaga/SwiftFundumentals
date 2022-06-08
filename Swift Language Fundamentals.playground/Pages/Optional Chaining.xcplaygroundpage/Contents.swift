@@ -25,7 +25,6 @@ austinApartment.human = Human(name: "Arturo Arriaga")
 
 
 //var myName = austinApartment.human?.name
-
 // A guard statement can also be used to unwrap the optional value. 
 var southAustinApartment = Apartment()
 if let residentName = southAustinApartment.human?.name {

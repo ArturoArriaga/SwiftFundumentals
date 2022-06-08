@@ -22,7 +22,6 @@ func checkDrinkingAge(_ ofAge: Bool) {
 
 // Guard Statement
 // Only runs if the condition is false, and will exit through the return statement. If the condition is true, Swift will ignore the guard block (providing early exit and fewer brackets.
-
 func checkDrinkProgram(_ ofAge: Bool) {
     let permited = ofAge
     guard permited else {
