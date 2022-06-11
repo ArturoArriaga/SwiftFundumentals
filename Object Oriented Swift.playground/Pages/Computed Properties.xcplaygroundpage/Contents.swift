@@ -40,7 +40,6 @@ class NumberClass {
 }
 
 // Gettable and settable properties
-
 var radius: Double = 10
 var diameter: Double {
     get {
@@ -70,3 +69,27 @@ var area: Double {
 
 side
 area
+
+
+var currentPaycheck: Int = 1500
+var nextPaycheck: Int {
+    get {
+        return currentPaycheck + 1500
+    }
+    set(theFollowingCheck) {
+        currentPaycheck = theFollowingCheck + 2000
+    }
+}
+
+currentPaycheck // 1500
+nextPaycheck // 1500 + 1500
+currentPaycheck = 4500 // the sum the previous two
+nextPaycheck // 4500 + 1500
+nextPaycheck = 6000
+currentPaycheck // 6000 + 2000, line 80
+
+
+
+
+
+
