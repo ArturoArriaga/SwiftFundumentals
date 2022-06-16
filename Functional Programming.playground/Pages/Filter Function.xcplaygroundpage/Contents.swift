@@ -90,7 +90,11 @@ print(zeroToHund)
 let zeroToFif = Array(1...100).filter({$0 % 2 == 0}).filter({$0 <= 50})
 print(zeroToFif)
 
+let numbers = [1,2,3,4].map { number in
+    return [number + number]
+}
 
+print(numbers)
 
 
 

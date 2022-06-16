@@ -98,3 +98,23 @@ let genericMapLongForm = genericMap(myNumbers) { (number) -> String in
 
 let genericMapShortForm = genericMap(myNumbers) { "You're number \(String($0))" }
 genericMapShortForm 
+
+let moreNumbers = [1,2,3,4,5].map { [$0] }
+moreNumbers
+
+let someNumbers = Array(0..<5)
+someNumbers
+someNumbers.map { number in
+    return [number]
+}
+
+
+let r = [0,1,2].map { num in
+    return [num, num]
+}
+
+let c = [0,1,2].map({[$0,$0]})
+print(c)
+
+let com = Array(zip(r,c).flatMap({$0}))
+print(com)

@@ -4,5 +4,9 @@
         <page name='Filter Function'/>
         <page name='Map'/>
         <page name='Reduce'/>
+        <page name='Compact Map'/>
+        <page name='FlatMap'/>
+        <page name='ForEach'/>
+        <page name='Zip'/>
     </pages>
 </playground>
