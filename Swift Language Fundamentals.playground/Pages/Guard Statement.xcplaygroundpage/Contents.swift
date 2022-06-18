@@ -92,9 +92,9 @@ func unwrapOneByOneWithGuard(n: String?, p: String?, a: Int?) {
         return
     }
     
-    print(name)
-    print(photo)
-    print(age)
+//    print(name)
+//    print(photo)
+//    print(age)
     
 }
 // it'll only excecute off all three guard statements are fulfilled.
@@ -105,7 +105,7 @@ unwrapOneByOneWithGuard(n: publicName, p: publicPhoto, a: artsAge)
 
 func unwrapWithGuard(n: String?, p: String?, a: Int?) {
     guard let name = publicName, let photo = publicPhoto, let age = artsAge else {
-        print("Something went wrong")
+//        print("Something went wrong")
         return
     }
     print("Your name is \(name). Your photo is \(photo). You are \(age) years old")
