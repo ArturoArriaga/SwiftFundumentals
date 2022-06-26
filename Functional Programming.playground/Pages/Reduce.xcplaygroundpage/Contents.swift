@@ -1,20 +1,22 @@
-//: [Previous](@previous)
+/*:
+ # Reduce
+ The reduce function is used to combine multiple things into one.
+ */
 
 import Foundation
 
-// Reduce
-// Combine all into one
+/*:
+ The Imperative Approach: Let's demonstrate how this could be useful by first showing how you would add up everythin in a collection using imperative style programming. 
+ */
 
-// Iterative Approach
-
-// Adding up numbers in an array
 var numberOne = Int()
 for number in Array(1...10) {
     numberOne += number
 }
 numberOne
 
-// Subtract all numbers in an array
+/*: Here's an other implementation, however, using subtraction.
+ Subtract all numbers in an array */
 
 var numberTwo = Int()
 for number in Array(1...10) {
@@ -22,13 +24,14 @@ for number in Array(1...10) {
 }
 numberTwo
 
-// Declarative / Functional Approach
+/*:  Declarative / Functional Approach */
+
 let added = Array(1...10).reduce(0, {$0 + $1 })
 added
 let subtracted = Array(1...10).reduce(0, {$0 + $1})
 subtracted
 
-// Custom implementation
+/*: Custom implementation */ 
 func myReduce(_ seed: Int, numbers: [Int], operation: (Int, Int) -> Int) {
     var current = seed
     for number in numbers {

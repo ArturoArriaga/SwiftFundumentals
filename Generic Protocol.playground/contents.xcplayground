@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'/>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Intro To Associated Type'/>
+        <page name='Protocol Extension and Type Contraints'/>
+        <page name='Override Associated Type'/>
+        <page name='Protocol Pitfalls'/>
+        <page name='Type Eraser'/>
+    </pages>
+</playground>
