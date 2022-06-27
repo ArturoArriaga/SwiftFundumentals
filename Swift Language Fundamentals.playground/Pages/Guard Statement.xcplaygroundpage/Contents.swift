@@ -1,13 +1,14 @@
 //: [Previous](@previous)
+//: [Next](@next)
 
 import Foundation
 
-// The guard statement
-// Another form of writing an else-if statement in swift that adds clarity.
+/*: # The guard statement
+Another form of writing an else-if statement in swift that adds clarity.
 
-// Addresses the following issues:
-// Providing an alternate way of expressing an else-if statement
-// Safely unwrapping multiple optionals.
+## Addresses the following issues:
+Providing an alternate way of expressing an else-if statement
+Safely unwrapping multiple optionals. */
 
 
 // The typical else-if statement: primary issues being the nested brackets and needed to read every line.
@@ -20,8 +21,10 @@ func checkDrinkingAge(_ ofAge: Bool) {
     }
 }
 
-// Guard Statement
-// Only runs if the condition is false, and will exit through the return statement. If the condition is true, Swift will ignore the guard block (providing early exit and fewer brackets.
+/*: ## Guard Statement
+ Only runs if the condition is false, and will exit through the return statement. If the condition is true, Swift will ignore the guard block (providing early exit and fewer brackets.
+ */
+
 func checkDrinkProgram(_ ofAge: Bool) {
     let permited = ofAge
     guard permited else {
@@ -74,7 +77,7 @@ var artsAge: Int? = 2
 //    }
 //}
 
-// The Guard Statement
+/*: Introducing the Guard Statement */
 
 func unwrapOneByOneWithGuard(n: String?, p: String?, a: Int?) {
     guard let name = publicName else {
@@ -97,12 +100,11 @@ func unwrapOneByOneWithGuard(n: String?, p: String?, a: Int?) {
 //    print(age)
     
 }
-// it'll only excecute off all three guard statements are fulfilled.
+/*: it'll only excecute off all three guard statements are fulfilled. */
 unwrapOneByOneWithGuard(n: publicName, p: publicPhoto, a: artsAge)
 
 
-// unwrap multiple optionals with guard statement
-
+/*: unwrap multiple optionals with guard statement */
 func unwrapWithGuard(n: String?, p: String?, a: Int?) {
     guard let name = publicName, let photo = publicPhoto, let age = artsAge else {
 //        print("Something went wrong")
@@ -113,7 +115,7 @@ func unwrapWithGuard(n: String?, p: String?, a: Int?) {
 
 unwrapWithGuard(n: publicName, p: publicPhoto, a: publicAge)
 
-// The defer statement
+/*: ## The defer statement */
 // A statement that excecutes only after the current scope has ended.
 func simpleDefer() {
     defer { print("This happens second")}

@@ -1,3 +1,6 @@
+//: [Previous](@previous)
+//: [Next](@next)
+
 /*: # Intro To Enum
  
  Let's review the basics of using enums in swift.

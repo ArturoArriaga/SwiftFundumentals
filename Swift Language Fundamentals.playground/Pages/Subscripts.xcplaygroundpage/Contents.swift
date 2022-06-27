@@ -1,5 +1,5 @@
 //: [Previous](@previous)
-
+//: [Next](@next)
 import Foundation
 
 // Subscripts - A way to make a shortcut instead of calling a method.

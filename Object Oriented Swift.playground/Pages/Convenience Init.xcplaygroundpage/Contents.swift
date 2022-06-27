@@ -1,8 +1,9 @@
 //: [Previous](@previous)
-
+//: [Next](@next)
 import Foundation
 
-// Convenience Initializers initialize objects quickly.
+/*: #Convenience Initializers
+ Initialize objects quickly. */
 
 // Here we create a class with a designated initializer.
 class Human {

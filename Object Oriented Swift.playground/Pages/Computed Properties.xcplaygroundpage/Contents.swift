@@ -1,12 +1,13 @@
 //: [Previous](@previous)
+//: [Next](@next)
 
 import Foundation
 
-// Computed Property
-// Creating relationships between variables.
+/*: # Computed Properties
+Creating relationships between variables.
+ */
 
 // Problem: Is there an alternative to using functions?
-
 // Bad, unrelated functions that take up many lines.
 func getDiameter(radius: Double) -> Double {
     return radius * 2

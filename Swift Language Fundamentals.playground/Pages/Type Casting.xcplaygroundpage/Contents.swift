@@ -1,10 +1,10 @@
 //: [Previous](@previous)
-
+//: [Next](@next)
 import Foundation
 
-// Type casting - converting between types.
+/*: #Type casting - converting between types.
 
-// The purpose of as, as?, as!
+The purpose of as, as?, as! */
 
 
 // Human Class

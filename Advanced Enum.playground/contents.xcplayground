@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
+<playground version='6.0' target-platform='macos' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='Intro to Enum'/>
-        <page name='Error Handling with Enum'/>
-        <page name='Generic Enum'/>
-        <page name='Nested Enums'/>
-        <page name='Protocol Oriented Enums'/>
-        <page name='Recursive Enums'/>
         <page name='Static Mutating With Self'/>
+        <page name='Nested Enums'/>
+        <page name='Recursive Enums'/>
+        <page name='Generic Enum'/>
+        <page name='Error Handling with Enum'/>
+        <page name='Protocol Oriented Enums'/>
     </pages>
 </playground>

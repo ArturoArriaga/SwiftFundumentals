@@ -1,15 +1,16 @@
 //: [Previous](@previous)
+//: [Next](@next)
 
 import Foundation
 import Darwin
 
-// Error Handling
-// Is nothing more than another else-if statement.
+/*: #Error Handling
+Is nothing more than another else-if statement.
 
-// Primary use cases:
-// To alter that some error can occur.
-// How to use a do-try block.
-// Distinguishing between try?, try!, and try.
+ ##Primary use cases:
+1. To alter that some error can occur.
+1. How to use a do-try block.
+1. Distinguishing between try?, try!, and try. */
 
 // Example designing a saftey feature.
 // This function checks if a rider is below or above 4 meters.
